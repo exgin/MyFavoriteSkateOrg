@@ -1,0 +1,286 @@
+@import url("https://fonts.google.com/specimen/Raleway?selection.family=Raleway");
+@import url("https://fonts.google.com/specimen/Indie+Flower");
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Indie Flower";
+    color: black;
+}
+
+
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.nav li{
+    display: inline;
+    padding: 0 5%;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header{
+    background-image: url("images/bakerlogohead.jpg");
+    background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+.skate-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "";
+    color: white;
+    font-weight: normal;
+
+}
+
+/*
+.skate-name-large{
+    font-size: 9em;
+}
+*/
+
+.content-section{
+    margin: 1em;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header{
+    font-family: monospace;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.about-skate-img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.main-footer{
+    background-color:	rgb(80,80,80);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.foot-nav img{
+    width: 100px;
+    height: 100px;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .5em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: red;
+    border: 2px solid;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 37%;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+    
+}
+
+.tour-date{
+    color: #080808;
+    font-weight: bold;
+    width: 13%;
+}
+
+.tour-city{
+    width: 17%;
+}
+
+.tour-arena{
+    width: 30%;
+}
+
+.tour-btn{
+    max-width: 15%;
+}
+
+.btn-primary{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #B90000;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.shop-item-img{
+    height: 100px;
+}
+
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price{
+    flex-grow: 1;   
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+}
+
+.cart-quantity{
+    width: 35%;
+}
+
+.cart-item-title{
+    margin-left: .5em;
+    font-size: 1.2em;
+
+}
+
+.cart-item-img{
+    border-radius: 5px;
+}
+
+.btn-danger{
+    color: white;
+    background-color: #710000;
+    border: none;
+    font-weight: bold;
+    border-radius: .3em;
+}
+
+.btn-danger:hover{
+    background-color: #250000;
+}
+
+.cart-quantity-input{
+    height: 34px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
